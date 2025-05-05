@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        #caja{
+            width: 15%;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: cadetblue;
+        }
+        button {
+            background-color: yellow;
+            color: black;
+            display: block;
+
+        }
+        #caja2{
+            margin-top: 10px;
+        }
+        #boton{
+            margin-top: 10px;
+        }
+        label{
+            display: block
+        }
+    </style>
+    <body>
+        <h1 align="center">Formulario de Datos</h1>
+        <div id="caja" align="center">
+          <form id="formulario">
+            <label for="nom">Nombre: </label>
+            <input type="text" id="nom" name="nom"><br><br>
+            <label for="ape">Apellido: </label>
+            <input type="text" id="ape" name="ape"><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="fechanac">Fecha de nacimiento: </label>
+            <input type="date" id="fechanac" name="fechanac"><br><br>
+            <label for="paisres">Pais de nesidencia: </label>
+            <input type="text" id="paisres" name="paisres"><br><br>
+            <button type="submit">Enviar</button>
+           </form>
+        </div>
+        <div align="center" id="caja2">
+            <button type="button">Estilo 1</button>
+            <button type="button" id="boton">Estilo alternativo</button>
+        </div>
+        
+        
+    </body>
+</html>
